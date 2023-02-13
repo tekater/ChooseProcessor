@@ -39,20 +39,10 @@ public class Main {
                 j2 = scanner.nextInt();
                 if(j2 > j1) {
                     minimum = j1;
+                    System.out.println("Минимум равен:" + minimum);
                 }else if(j1 > j2 && j3 > j2 && j4 > j2 && j5 > j2){
                     minimum = j2;
                     System.out.println("Минимум равен:" + minimum);
-                }else {
-                    System.out.println("Минимум не выявлен");
-                }
-
-                if (j1 % minimum == 1){
-                    --j1;
-                }else{
-                    j1=j1;
-                }
-                if (j2 % minimum == 1){
-                    --j2;
                 }else{
                     if(j1==j2 | j1==j3 | j1==j4 | j1==j5){
                         minimum = j1;
@@ -60,13 +50,24 @@ public class Main {
                     }else if(j2==j1 | j2==j3 | j2==j4 | j2==j5){
                         minimum = j2;
                         System.out.println("Минимум равен:" + minimum);
-                    }else {
+                    } else {
                         System.out.println("Минимум не выявлен");
                     }
                 }
+
+                    if (j1 % minimum == 1){
+                    --j1;
+                }else{
+                    j1=j1;
+                }
+                if (j2 % minimum == 1){
+                    --j2;
+                }else {
+                    j2 = j2;
+                }
+
                 output = j1+j2+j3+j4+j5;
                 System.out.println(j1  + "+" + j2 + "+"  + "=" + output);
-
                 break;
             case 3:
                 System.out.println("Введите частоту первого вашего процессора");
@@ -77,6 +78,7 @@ public class Main {
                 j3 = scanner.nextInt();
                 if(j2 > j1 && j3 > j1) {
                     minimum = j1;
+                    System.out.println("Минимум равен:" + minimum);
                 }else if(j1 > j2 && j3 > j2 ){
                     minimum = j2;
                     System.out.println("Минимум равен:" + minimum);
