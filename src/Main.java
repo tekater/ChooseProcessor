@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 public class Main {
+    @SuppressWarnings("all")
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число процессоров n (1-5):");
         int n = scanner.nextInt();
@@ -12,6 +14,7 @@ public class Main {
         int j5 = 0;
         int minimum = 0;
         int output = 0;
+
         switch (n) {
             case 1:
                 System.out.println("Введите частоту первого вашего процессора");
