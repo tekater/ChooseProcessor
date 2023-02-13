@@ -7,14 +7,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число процессоров n (1-5):");
         int n = scanner.nextInt();
-        int j1 = 0;
-        int j2 = 0;
-        int j3 = 0;
-        int j4 = 0;
-        int j5 = 0;
-        int minimum = 0;
-        int output = 0;
-
+        int j1 = 0 , j2 = 0 , j3 = 0 , j4 = 0 , j5 = 0;
+        int minimum = 0 , output;
         switch (n) {
             case 1:
                 System.out.println("Введите частоту первого вашего процессора");
