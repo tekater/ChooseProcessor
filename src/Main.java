@@ -24,8 +24,7 @@ public class Main {
                     j1=j1;
                 }
                 output = j1+j2+j3+j4+j5;
-                System.out.println(j1 + "=" + output);
-
+                System.out.println("Частота равна: " + output);
                 break;
             case 2:
                 System.out.println("Введите частоту первого вашего процессора");
@@ -62,7 +61,8 @@ public class Main {
                 }
 
                 output = j1+j2+j3+j4+j5;
-                System.out.println(j1  + "+" + j2 + "+"  + "=" + output);
+                System.out.println("Вычисление: " + j1  + "+" + j2 + "=" + output);
+                System.out.println("Частота равна: " + output);
                 break;
             case 3:
                 System.out.println("Введите частоту первого вашего процессора");
@@ -111,8 +111,8 @@ public class Main {
                     j3=j3;
                 }
                 output = j1+j2+j3+j4+j5;
-                System.out.println(j1  + "+" + j2 + "+" + j3 + "+" + "=" + output);
-
+                System.out.println("Вычисление: " + j1  + "+" + j2 + "+" + j3 + "=" + output);
+                System.out.println("Частота равна: " + output);
                 break;
             case 4:
                 System.out.println("Введите частоту первого вашего процессора");
@@ -174,8 +174,8 @@ public class Main {
                     j4=j4;
                 }
                 output = j1+j2+j3+j4+j5;
-                System.out.println(j1  + "+" + j2 + "+" + j3 + "+" + j4 + "+"  + "=" + output);
-
+                System.out.println("Вычисление: " + j1  + "+" + j2 + "+" + j3 + "+" + j4 + "=" + output);
+                System.out.println("Частота равна: " + output);
                 break;
             case 5:
                 System.out.println("Введите частоту первого вашего процессора");
@@ -251,7 +251,8 @@ public class Main {
                     j5=j5;
                 }
                 output = j1+j2+j3+j4+j5;
-                System.out.println(j1  + "+" + j2 + "+" + j3 + "+" + j4 + "+" + j5 + "=" + output);
+                System.out.println("Вычисление: " + j1  + "+" + j2 + "+" + j3 + "+" + j4 + "+" + j5 + "=" + output);
+                System.out.println("Частота равна: " + output);
                 break;
             default:
                 System.out.println("что-то пошло не так.");
