@@ -5,11 +5,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число процессоров n (1-5):");
         int n = scanner.nextInt();
-        /*System.out.println("Частоты ваших процессоров (1 <= fi <= 2*10^5):");
-        int j = scanner.nextInt();*/
-        /*for (int i = 1; i < n; i++) {
-
-        }*/
         int j1 = 0;
         int j2 = 0;
         int j3 = 0;
@@ -208,8 +203,7 @@ public class Main {
                 }else if(j1 > j5 && j3 > j5 && j4 > j5 && j2 > j5){
                     minimum = j5;
                     System.out.println("Минимум равен:" + minimum);
-                }
-                else {
+                }else {
                     if(j1==j2 | j1==j3 | j1==j4 | j1==j5){
                         minimum = j1;
                         System.out.println("Минимум равен:" + minimum);
